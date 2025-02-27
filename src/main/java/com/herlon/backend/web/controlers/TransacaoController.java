@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("transacoes")
-@CrossOrigin(origins = "http://localhost:9090")
+@CrossOrigin(origins = {"https://frontend-ycvu.onrender.com","http://localhost:9090"})
 public class TransacaoController {
 
     private final TransacaoService service;

@@ -7,7 +7,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 @RestController
 @RequestMapping("cnab")
-@CrossOrigin(origins = "http://localhost:9090")
+@CrossOrigin(origins = {"https://frontend-ycvu.onrender.com","http://localhost:9090"})
 public class CnabController {
 
     @Autowired
